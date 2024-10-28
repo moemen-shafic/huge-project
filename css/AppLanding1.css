@@ -19,8 +19,8 @@
     position: relative;
 }
 
-.navbar {
-    height: 120px;
+.first-section-navbar .navbar {
+    height: 120px; 
     z-index: 1000;
 }
 
@@ -546,9 +546,30 @@ align-items: center;
 
 
 }   
+/* last section footer */
+.last-section {
+    background-color: #e62c2c;
+    height: 100px;
+}
 
+.last-section .footer   {
+    margin-top: 30px;
+    width: 20%;
+}
 
-
+.last-section .fa-facebook,
+.fa-twitter,
+.fa-behance,
+.fa-instagram{
+    font-size: x-large;
+    color:#9f9f9f;
+    border-radius: 50%;
+    border:1px solid #9f9f9f;
+    padding: 5px;
+}
+.last-section .contact-now{
+    margin-top: 30px;
+}
 
 /* end section eight */
 
